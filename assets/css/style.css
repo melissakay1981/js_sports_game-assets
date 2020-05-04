@@ -1,0 +1,44 @@
+
+
+
+
+body{
+    background-image: url("./basketball.png");
+    background-size: cover;
+}
+
+.hide {
+    display: none;
+}
+
+.left {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 25px;
+     color: blue;
+}
+.Team{
+    position: relative;
+    left: -20px;
+    color:black;
+
+}
+
+.right {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end;
+   font-size: 25px;
+   color: blueviolet;
+}
+
+.clear {
+    clear: both;
+}
+
+#reset-container, h1 {
+    text-align: center;
+}
